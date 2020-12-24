@@ -21,7 +21,8 @@ var additionalsRouter = require('./routes/additionals')
 var app = express();
 
 var allowedOrigins = ['http://localhost:3000',
-                      'http://localhost:3001'];
+                      'http://localhost:3001',
+                      'https://3000-ae2d4aef-74fc-4191-913c-3ae577676c45.ws-eu03.gitpod.io'];
 
 app.use(cors({
     origin: function(origin, callback){
